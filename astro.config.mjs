@@ -32,7 +32,7 @@ const isProduction =
 const basePath = isProduction ? "/memori" : "/";
 
 export default defineConfig({
-	site: "https://nemoizm.github.io",
+	site: "https://nxsh-lol.github.io",
 	base: basePath,
 	trailingSlash: "always",
 	integrations: [
