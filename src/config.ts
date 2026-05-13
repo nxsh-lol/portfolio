@@ -16,9 +16,9 @@ export const siteConfig: SiteConfig = {
 		fixed: false, // Hide the theme color picker for visitors
 	},
 	banner: {
-		enable: false,
+		enable: true,
 		src: "assets/images/banner.jpg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-		position: "bottom", // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
+		position: "center", // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
 		credit: {
 			enable: true, // Display the credit text of the banner image
 			text: "Tham Ma Pass, Hagiangloop", // Credit text to be displayed
