@@ -29,10 +29,10 @@ import { remarkReadingTime } from "./src/plugins/remark-reading-time.mjs";
 // In dev mode, use root path for easier local development
 const isProduction =
 	process.env.NODE_ENV === "production" || process.env.CI === "true";
-const basePath = isProduction ? "/portfolio" : "/";
+const basePath = isProduction ? "/";
 
 export default defineConfig({
-	site: "https://nxsh-lol.github.io",
+	site: "https://port.nxsh.lol",
 	base: basePath,
 	trailingSlash: "always",
 	integrations: [
