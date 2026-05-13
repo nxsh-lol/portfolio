@@ -8,8 +8,8 @@ import type {
 import { LinkPreset } from "./types/config";
 
 export const siteConfig: SiteConfig = {
-	title: "Memori",
-	subtitle: "A gallery of memories",
+	title: "0nxsh",
+	subtitle: "Portfolio",
 	lang: "en", // Language code, e.g. 'en', 'zh_CN', 'ja', etc.
 	themeColor: {
 		hue: 150, // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
@@ -63,9 +63,9 @@ export const navBarConfig: NavBarConfig = {
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "assets/images/avatar.jpeg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-	name: "Go With Nemo",
-	bio: "Live a life you will remember!",
+	avatar: "assets/images/avatar.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+	name: "Nxsh",
+	bio: "El mapuche",
 	links: [
 		// {
 		// 	name: "Twitter",
@@ -80,19 +80,19 @@ export const profileConfig: ProfileConfig = {
 		// 	url: "https://store.steampowered.com",
 		// },
 		{
-			name: "Youtube",
-			icon: "fa6-brands:youtube",
-			url: "https://www.youtube.com/@gowithnemo",
+			name: "X (Twitter)",
+			icon: "fa6-brands:x-twitter",
+			url: "https://x.com/0nxsh",
 		},
 		{
 			name: "Instagram",
 			icon: "fa6-brands:instagram",
-			url: "https://www.instagram.com/gowithnemo/",
+			url: "https://www.instagram.com/0andrxs",
 		},
 		{
 			name: "Tiktok",
 			icon: "fa6-brands:tiktok",
-			url: "https://www.tiktok.com/@gowithnemo",
+			url: "https://www.tiktok.com/@p_andrxs",
 		},
 	],
 };
