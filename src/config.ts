@@ -89,11 +89,6 @@ export const profileConfig: ProfileConfig = {
 			icon: "fa6-brands:instagram",
 			url: "https://www.instagram.com/0andrxs",
 		},
-		{
-			name: "Tiktok",
-			icon: "fa6-brands:tiktok",
-			url: "https://www.tiktok.com/@p_andrxs",
-		},
 	],
 };
 
