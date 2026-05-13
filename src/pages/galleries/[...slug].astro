@@ -96,6 +96,22 @@ const imagesToPreload = allImageEntries.slice(0, 20);
 ---
 
 <MainGridLayout title={galleryTitle} description={galleryDescription}>
+<Fragment slot="head">
+		<meta property="og:title" content={galleryTitle} />
+		<meta property="og:description" content={galleryDescription} />
+		<meta property="og:type" content="website" />
+
+		<meta
+			property="og:image"
+			content={allImageEntries[0]?.originalSrc}
+		/>
+
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta
+			name="twitter:image"
+			content={allImageEntries[0]?.originalSrc}
+		/>
+	</Fragment>
 	{imagesToPreload.map(({ originalSrc }) => (
 		<link slot="head" rel="preload" as="image" href={originalSrc} />
 	))}
